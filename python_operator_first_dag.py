@@ -31,7 +31,7 @@ with DAG(
     )
 
     task2=PythonOperator(
-        task_id='retuen_name',
+        task_id='return_name',
         python_callable=get_name
     )
     task1>>task2

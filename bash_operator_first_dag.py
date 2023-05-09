@@ -8,7 +8,7 @@ default_args={
     'retry_delay':timedelta(minutes=2),
 }
 with DAG(
-    dag_id='my_first_dag',
+    dag_id='bash_operator',
     description='this is our first dag',
     start_date=datetime(2023,4,21),
     schedule_interval='@once',
